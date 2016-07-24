@@ -118,7 +118,6 @@ public class Members {
 					System.out.println("PQR MEMBERS");
 					System.out.println("--------------------------");
 				 table.stream().filter(Members ->Members.getclubCategory() == "PQR").forEach(System.out::println);
-				 //table.parallelStream().forEach(System.out::println);
 				 }
 
 	}
